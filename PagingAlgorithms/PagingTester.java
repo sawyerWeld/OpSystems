@@ -17,6 +17,9 @@ public class PagingTester {
 			c++;
 		}
 		
+		// For exercise 9.6
+		// int[] pages = {1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6};
+		
 		FifoPager fp = new FifoPager(numPageFrames);
 		LruPager lru = new LruPager(numPageFrames);
 		OptPager opt = new OptPager(numPageFrames,pages); 
